@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weird News TV | Official Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b0711;
+            color: #f1ecf7;
+            line-height: 1.6;
+            padding-top: 80px;
+        }
+
+        header {
+            background: #130d1e;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            font-size: 1.8rem;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .nav-link {
+            color: #a09bb0;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: #ff0055;
+        }
+
+        .subscribe-btn {
+            background: #ff0055;
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            background: #130d1e;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .hero-text p {
+            color: #a09bb0;
+            font-size: 1.1rem;
+        }
+
+        .grid {
+            max-width: 1200px;
+            margin: 20px auto 40px auto;
+            padding: 0 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #130d1e;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .card-desc {
+            color: #a09bb0;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #07040b;
+            color: #5d586e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="WeirdNewsTVWebsite.html" class="logo">WEIRD NEWS TV</a>
+        <div class="nav-container">
+            <a href="https://weirdnewstv-h.github.io/Weird-News-TV-Games/" class="nav-link">Games</a>
+            <a href="https://youtube.com/@WeirdNewsTVOfficial" target="_blank" class="subscribe-btn">Subscribe</a>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/Z_YXVhZqAD0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="hero-text">
+            <h1>What Our Channel Is About</h1>
+            <p>Our World Famous Normal Interview Series To Our Popular Shorts To Our Fake Fake News.</p>
+        </div>
+    </main>
+
+    <section class="grid">
+        <div class="card">
+            <div class="card-icon">🎤</div>
+            <h3 class="card-title">Our World Famous Normal Interview Series</h3>
+            <p class="card-desc">Talking About Different Topics Ranging From Melting Ice Cream To Pirates Attacking.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">🩳</div>
+            <h3 class="card-title">Our Popular Shorts</h3>
+            <p class="card-desc">We Post Shorts Ranging From Funny Shorts To Edits.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">📰</div>
+            <h3 class="card-title">Our Fake Fake News</h3>
+            <p class="card-desc">We Post Fake News Ranging From Kelowna Virus To Car Crashes Caused By Brr Brr Patapim.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Weird News TV</p>
+    </footer>
+
+</body>
+</html>
